@@ -6,7 +6,7 @@ defaultContentLanguage = "uk"
 publishdir = "public"
 paginate = 5
 DisqusShortname = "codeforchernihiv"
-Copyright = "2016 Всі права застережено. Якщо не вказано інше, текст ліцензований за <a href=\"https://creativecommons.org/licenses/by-nd/4.0/deed.uk\" target=\"_blank\">CC BY-ND 4.0</a>."
+Copyright = "2016 Всі права застережено. Якщо не вказано інше, текст ліцензований за <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/deed.uk\" target=\"_blank\">CC BY-NC-SA 4.0</a>."
 canonifyurls = true
 
 [taxonomies]
