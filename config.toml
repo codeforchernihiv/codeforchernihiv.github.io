@@ -1,0 +1,52 @@
+baseurl = "https://codeforchernihiv.gihub.io/"
+title = "Code for Chernihiv"
+#languageCode = "en-us"
+languageCode = "uk-ua"
+defaultContentLanguage = "uk"
+publishdir = "public"
+paginate = 5
+DisqusShortname = "codeforchernihiv"
+Copyright = "2016 Всі права застережено. Якщо не вказано інше, текст ліцензований за <a href=\"https://creativecommons.org/licenses/by-nd/4.0/deed.uk\" target=\"_blank\">CC BY-ND 4.0</a>."
+canonifyurls = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  # description = "Суспільно корисний код, або open-source для людей та уряду ;)"
+  # description = "Those who say it cannot be done shouldn't interrupt the people doing it"
+  description = "Технології для добробуту нашого міста"
+  author = "учасники Code for Chernihiv"
+  cover = "images/cover.jpg"
+  authorlocation = "Chernihiv, Ukraine"
+  authorwebsite = "https://gihub.com/codeforchernihiv"
+  bio= "Code for Chernihiv - код на допомогу розвитку"
+  logo = "images/logo.png"
+  # googleAnalyticsUserID = "UA-XXXXXXXX-X"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  # RSSLink = "http://feeds.feedburner.com/..."
+  githubName = "codeForChernihiv"
+  twitterName = "codeForChernihiv"
+  facebookName = "codeForChernihiv"
+  # linkedinName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+
+[[menu.main]]
+  identifier = "home"
+  name = "Домівка"
+  url = "/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "about"
+  name = "Що це"
+  url = "/about"
+  weight = -100
+
+[[menu.main]]
+  identifier = "test"
+  name = "test other author"
+  url = "/test"
+  weight = -90
